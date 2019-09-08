@@ -1,0 +1,10 @@
+.github-icon {
+    color: #DEBE22;
+    margin-left: auto;
+    padding-top: 5px;
+}
+
+.github-icon:hover {
+    animation-duration: 1s;
+    color: #c8ab1e;
+}
