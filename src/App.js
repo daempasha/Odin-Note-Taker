@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import './App.css';
 import Header from './components/Header.js'
 import {Checkbox, Button, Paper, Grid, OutlinedInput} from '@material-ui/core/';
+import Notes from './components/Notes'
 
 const Background = styled.div`
     display: grid;
@@ -16,13 +17,7 @@ const input = {
   'height': '36px'
 }
 
-function Notes(props){
-  return (
-    <div>
-      {props.notes.map(item => <Paper className='paper-margin'><p>{item}</p></Paper>)}
-    </div>
-  );
-}
+
 
 
 class App extends React.Component{
@@ -39,10 +34,12 @@ class App extends React.Component{
   }
 
   handleSubmit(e){
-      e.preventDefault();
-    this.setState(prevState => ({
-      'submit':[...prevState.submit, this.state.value], 'value':''
-    }));
+    e.preventDefault();
+    if(this.state.value != ''){
+      this.setState(prevState => ({
+        'submit':[...prevState.submit, this.state.value], 'value':''
+      }));
+    }
   }
 
   handleChange(e){
@@ -60,7 +57,7 @@ class App extends React.Component{
             </form>
           </Paper>
           <Notes notes={this.state.submit}/>
-      </div>
+        </div>
     ); 
   }
 }

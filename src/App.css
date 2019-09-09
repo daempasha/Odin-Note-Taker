@@ -6,6 +6,6 @@ body {
 
 .paper-margin {
     margin: 0 10vw 1vh 10vw;
-    padding: 1vh 1vw;
+    padding: 0.2vh 1vw;
     word-break: break-all;
 }
