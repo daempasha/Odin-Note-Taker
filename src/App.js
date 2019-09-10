@@ -1,9 +1,8 @@
 import React from 'react';
-import logo, { ReactComponent } from './logo.svg';
 import styled from 'styled-components'
 import './App.css';
 import Header from './components/Header.js'
-import {Checkbox, Button, Paper, Grid, OutlinedInput} from '@material-ui/core/';
+import {Button, Paper, OutlinedInput} from '@material-ui/core/';
 import Notes from './components/Notes'
 
 const Background = styled.div`
@@ -17,9 +16,6 @@ const input = {
   'height': '36px'
 }
 
-
-
-
 class App extends React.Component{
   constructor(props){
     super(props);
@@ -29,8 +25,16 @@ class App extends React.Component{
       'submit':[]
     }
 
+    this.deleteItem = this.deleteItem.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
+  }
+
+  deleteItem(item){
+      if(this.state.submit.includes(item)){
+        console.log('okay');
+        this.setState({submit: this.state.submit.filter(li => li !== item)});
+      }
   }
 
   handleSubmit(e){
@@ -56,7 +60,7 @@ class App extends React.Component{
               <Button variant='outlined' type='submit'>+ Add note</Button>
             </form>
           </Paper>
-          <Notes notes={this.state.submit}/>
+          <Notes delete={this.deleteItem} notes={this.state.submit}/>
         </div>
     ); 
   }
