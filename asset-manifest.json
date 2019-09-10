@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Odin-Note-Taker/static/css/main.da638e74.chunk.css",
-    "main.js": "/Odin-Note-Taker/static/js/main.4ccfce2b.chunk.js",
-    "main.js.map": "/Odin-Note-Taker/static/js/main.4ccfce2b.chunk.js.map",
+    "main.css": "/Odin-Note-Taker/static/css/main.03b2e93c.chunk.css",
+    "main.js": "/Odin-Note-Taker/static/js/main.f423af52.chunk.js",
+    "main.js.map": "/Odin-Note-Taker/static/js/main.f423af52.chunk.js.map",
     "runtime~main.js": "/Odin-Note-Taker/static/js/runtime~main.e9664707.js",
     "runtime~main.js.map": "/Odin-Note-Taker/static/js/runtime~main.e9664707.js.map",
-    "static/js/2.f8e2a35a.chunk.js": "/Odin-Note-Taker/static/js/2.f8e2a35a.chunk.js",
-    "static/js/2.f8e2a35a.chunk.js.map": "/Odin-Note-Taker/static/js/2.f8e2a35a.chunk.js.map",
+    "static/js/2.9ad8c6e8.chunk.js": "/Odin-Note-Taker/static/js/2.9ad8c6e8.chunk.js",
+    "static/js/2.9ad8c6e8.chunk.js.map": "/Odin-Note-Taker/static/js/2.9ad8c6e8.chunk.js.map",
     "index.html": "/Odin-Note-Taker/index.html",
-    "precache-manifest.08dd29376c2a8c0a3a90e04f2e623c62.js": "/Odin-Note-Taker/precache-manifest.08dd29376c2a8c0a3a90e04f2e623c62.js",
+    "precache-manifest.62dd371aa4a1903d0d63b4029e01adc5.js": "/Odin-Note-Taker/precache-manifest.62dd371aa4a1903d0d63b4029e01adc5.js",
     "service-worker.js": "/Odin-Note-Taker/service-worker.js",
-    "static/css/main.da638e74.chunk.css.map": "/Odin-Note-Taker/static/css/main.da638e74.chunk.css.map",
-    "static/media/logo.svg": "/Odin-Note-Taker/static/media/logo.5d5d9eef.svg"
+    "static/css/main.03b2e93c.chunk.css.map": "/Odin-Note-Taker/static/css/main.03b2e93c.chunk.css.map"
   }
 }

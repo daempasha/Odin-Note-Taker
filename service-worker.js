@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Odin-Note-Taker/precache-manifest.08dd29376c2a8c0a3a90e04f2e623c62.js"
+  "/Odin-Note-Taker/precache-manifest.62dd371aa4a1903d0d63b4029e01adc5.js"
 );
 
 self.addEventListener('message', (event) => {
